@@ -1,4 +1,4 @@
-package com.alibaba.compileflow.mock;
+package com.alibaba.compileflow.demo.mock;
 
 import org.springframework.stereotype.Component;
 

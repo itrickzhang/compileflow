@@ -1,4 +1,4 @@
-package com.alibaba.compileflow.mock;
+package com.alibaba.compileflow.demo.mock;
 
 /**
  * Mock一个普通的JavaBean
@@ -16,5 +16,5 @@ public class MockJavaClazz {
     public double sqrt(double a) {
         return Math.sqrt(a);
     }
-
+    
 }
