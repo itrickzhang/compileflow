@@ -5,111 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>compileflow-core</module>
-        <module>compileflow-autoconfigure</module>
-        <module>compileflow-starter</module>
-        <module>compileflow-samples</module>
+        <module>daf-compileflow-core</module>
+        <module>daf-compileflow-autoconfigure</module>
+        <module>daf-compileflow-starter</module>
+        <module>daf-compileflow-samples</module>
     </modules>
 
     <parent>
-        <artifactId>spring-boot-parent</artifactId>
-        <groupId>org.springframework.boot</groupId>
-        <version>2.6.1</version>
+        <groupId>com.daf</groupId>
+        <artifactId>daf-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <groupId>com.alibaba.compileflow</groupId>
-    <artifactId>compileflow</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
-    <name>compileflow</name>
-    <description>
-        Compileflow is a very lightweight, high-performance, integrable and extensible process engine.
-    </description>
-    <url>https://github.com/alibaba/compileflow</url>
-    <inceptionYear>2020</inceptionYear>
-
-    <licenses>
-        <license>
-            <name>Apache 2</name>
-            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-            <comments>A business-friendly OSS license</comments>
-        </license>
-    </licenses>
-    <scm>
-        <connection>scm:git:git@github.com:alibaba/compileflow.git</connection>
-        <developerConnection>scm:git:git@github.com:alibaba/compileflow.git</developerConnection>
-        <url>git@github.com:alibaba/compileflow.git</url>
-    </scm>
-    <issueManagement>
-        <url>https://github.com/alibaba/compileflow/issues</url>
-        <system>GitHub Issues</system>
-    </issueManagement>
-    <organization>
-        <name>Alibaba</name>
-        <url>https://www.alibaba.com</url>
-    </organization>
-    <developers>
-        <developer>
-            <name>无相</name>
-            <id>voff12</id>
-            <email>voff12(AT)gmail.com</email>
-            <roles>
-                <role>Developer</role>
-            </roles>
-            <timezone>+8</timezone>
-            <url>https://github.com/voff12</url>
-            <organization>Alibaba</organization>
-            <organizationUrl>https://www.alibaba.com</organizationUrl>
-        </developer>
-        <developer>
-            <name>余苏</name>
-            <id>yusu1210</id>
-            <email>yusu1210(AT)126.com</email>
-            <roles>
-                <role>Developer</role>
-            </roles>
-            <timezone>+8</timezone>
-            <url>https://github.com/yusu1210</url>
-            <organization>Alibaba</organization>
-            <organizationUrl>https://www.alibaba.com</organizationUrl>
-        </developer>
-        <developer>
-            <name>徐工</name>
-            <id>xuan698400</id>
-            <email>javaandswing(AT)163.com</email>
-            <roles>
-                <role>Developer</role>
-            </roles>
-            <timezone>+8</timezone>
-            <url>https://github.com/xuan698400</url>
-            <organization>Alibaba</organization>
-            <organizationUrl>https://www.alibaba.com</organizationUrl>
-        </developer>
-        <developer>
-            <name>梵度</name>
-            <id>fandu525</id>
-            <email>330313072(AT)qq.com</email>
-            <roles>
-                <role>Developer</role>
-            </roles>
-            <timezone>+8</timezone>
-            <url>https://github.com/xuan698400</url>
-            <organization>Alibaba</organization>
-            <organizationUrl>https://www.alibaba.com</organizationUrl>
-        </developer>
-        <developer>
-            <name>哲良</name>
-            <id>oldratlee</id>
-            <email>oldratlee(AT)gmail.com</email>
-            <roles>
-                <role>Developer</role>
-                <role>CI/SCM Engineer</role>
-            </roles>
-            <timezone>+8</timezone>
-            <url>https://github.com/oldratlee</url>
-            <organization>Alibaba</organization>
-            <organizationUrl>https://www.alibaba.com</organizationUrl>
-        </developer>
-    </developers>
+    <artifactId>daf-compileflow-parent</artifactId>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -212,17 +120,17 @@
             </dependency>
             <dependency>
                 <groupId>com.alibaba.compileflow</groupId>
-                <artifactId>compileflow-core</artifactId>
+                <artifactId>daf-compileflow-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.compileflow</groupId>
-                <artifactId>compileflow-autoconfigure</artifactId>
+                <artifactId>daf-compileflow-autoconfigure</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.compileflow</groupId>
-                <artifactId>compileflow-starter</artifactId>
+                <artifactId>daf-compileflow-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
